@@ -1,100 +1,122 @@
 * {
+	/*Miscellaneous*/
 	box-sizing: border-box;
 }
 
 html,
 body {
+	/*Box model stuff*/
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
 img {
-	max-width: 100%;
+	/*Box model stuff*/
+	margin: 0 auto;
+	max-height: 525px;
 }
 
 body {
-	font-family: "PT Sans", sans-serif;
-	line-height: 1.6;
-	color: #fff;
+	/*Box model stuff*/
 	background: #1a1e26;
+	/*Typography stuff*/
+	font-family: "PT Sans", sans-serif;
 	font-size: 21px;
+	color: #fff;
+	/*Miscellaneous*/
+	line-height: 1.6;
 }
 
 h1,
 h2,
 h3 {
+	/*Typography stuff*/
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 900;
 }
 
 h1 {
-	text-align: center;
+	/*Typography stuff*/
 	font-size: 120px;
+	text-align: center;
+	/*Miscellaneous*/
 	line-height: 0.8;
 }
 
 h2 {
+	/*Typography stuff*/
 	font-size: 48px;
+	/*Miscellaneous*/
 	line-height: 1;
 }
 
 a {
+	/*Typography stuff*/
 	color: #3669c9;
 }
 
 a:hover,
 a:focus {
+	/*Typography stuff*/
 	color: #fff;
 }
 
 .btn {
+	/*Display stuff*/
 	display: inline-block;
+	/*Box model stuff*/
 	padding: 0.5em 1.25em;
-	color: inherit;
+	background-color: #3669c9;
+	/*Typography stuff*/
+	font-weight: 700;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: 700;
-	background-color: #3669c9;
+	color: inherit;
 }
 
 .btn:hover,
 .btn:focus {
+	/*Box model stuff*/
 	background: #3339c9;
 }
 
 .hero {
-	text-align: left;
+	/*Box model stuff*/
 	padding: 14rem 0 25rem;
 	background-image: url("../img/moon.jpg");
 	background-size: cover;
+	/*Typography stuff*/
+	text-align: left;
 }
 
 section {
+	/*Box model stuff*/
 	padding: 5rem 0;
 }
 
 .container {
+	/*Box model stuff*/
 	width: 800px;
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	/*Typography stuff*/
+	text-align: center;
 }
 
 .fury {
+	/*Typography stuff*/
 	color: red;
 }
 
 .cat-list {
+	/*Typography stuff*/
 	text-align: left;
 }
 
 .redirect-from-patch {
+	/*Box model stuff*/
 	margin: 100px 0px;
+	/*Typography stuff*/
 	text-align: center;
-}
-
-.cat {
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
 }
